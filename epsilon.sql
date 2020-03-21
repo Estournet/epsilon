@@ -3,7 +3,6 @@
 -- https://www.phpmyadmin.net/
 --
 -- Hôte : 127.0.0.1:3306
--- Généré le :  ven. 15 déc. 2017 à 08:17
 -- Version du serveur :  5.7.19
 -- Version de PHP :  7.1.9
 
@@ -245,8 +244,7 @@ CREATE TABLE IF NOT EXISTS `users` (
 
 INSERT INTO `users` (`id_user`, `login`, `email`, `password`, `user_name`, `address`, `city`) VALUES
 (11, 'user', 'user@user.fr', '04f8996da763b7a969b1028ee3007569eaf3a635486ddab211d512c85b9df8fb', 'Utilisateur', '404 rue Jimi Hendrix', 'Paris'),
-(10, 'admin', 'admin@admin.fr', '8c6976e5b5410415bde908bd4dee15dfb167a9c873fc4bb8a81f6f2ab448a918', 'Administrateur', '2 Place du Colonel Fabien', 'Paris'),
-(12, 'Vincent le BG du 91', 'vincent@vincent.fr', '65c3f75641b22925c737ca657b126cd68c39e423349d43031cf9a3b9a18cee1f', 'Vincent Monard', '1337 rue Allan Turing', 'Bangkok');
+(10, 'admin', 'admin@admin.fr', '8c6976e5b5410415bde908bd4dee15dfb167a9c873fc4bb8a81f6f2ab448a918', 'Administrateur', '2 Place du Colonel Fabien', 'Paris');
 COMMIT;
 
 /*!40101 SET CHARACTER_SET_CLIENT=@OLD_CHARACTER_SET_CLIENT */;
